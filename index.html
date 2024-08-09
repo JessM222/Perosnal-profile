@@ -37,32 +37,88 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./Assets/profile-pic.png" alt="Jess Miao Profile Picture" />
+        <img src="./Assets/profile-pic.jpeg" alt="Jess Miao Profile Picture" />
       </div>
-      <div class="section__text"></div>
-      <p class="section__text__p1">Hello</p>
-      <h1 class="title">Jess Miao</h1>
-      <p class="section__text__p2">Developer</p>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2"
-          onclick="window.open('./Assets/Jess Miao CV.pdf')"
-        >
-          Download My CV
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jess Miao</h1>
+        <p class="section__text__p2">Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./Assets/Jess Miao CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./Assets/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/yimeng-miao/'"
+          />
+          <img
+            src="./Assets/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/JessM222?tab=overview&from=2024-08-01&to=2024-08-07'"
+          />
+        </div>
       </div>
-      <div id="socials-container">
-        <img
-          src="./Assets/linkedin.png"
-          alt="My Linkedin Profile"
-          class="icon"
-          onclick="location.href='https://www.linkedin.com/in/yimeng-miao/'"
-        />
-        <img src="./Assets/github.png" alt="My Github Profile" class="icon" onclick="location.href=">
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./Assets/about-pic.png"
+            alt="profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./Assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+years <br />Auditing while self-studying programming as a passion</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./Assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Bachelors Degree in Computer Science <br />Master of
+                Professional Accoutning
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              mollitia, ipsa quibusdam deserunt eius quas similique minima.
+              Eveniet, recusandae! Voluptatum ullam illo corrupti facere totam
+              saepe incidunt deserunt, reprehenderit assumenda exercitationem et
+              maxime itaque eum quam enim architecto, sunt animi placeat
+              adipisci doloremque aliquam. Animi distinctio officiis impedit
+              delectus amet.
+            </p>
+          </div>
+        </div>
       </div>
+      <img src="./Assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <script src="script.js"></script>
   </body>
