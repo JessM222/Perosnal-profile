@@ -152,7 +152,7 @@ section {
   min-height: fit-content;
 }
 
-.section-contianer {
+.section-container {
   display: flex;
 }
 
@@ -267,6 +267,7 @@ section {
 }
 
 .about-containers {
+  display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -282,12 +283,66 @@ section {
   display: flex;
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
-
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom:2.5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 2rem;
+  height: 70%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+/* Experience Section */
+
+section#experience {
+  height: 50vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+#experience {
+  position: relative;
+}
+
+.experience-details-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+}
+article {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
 }
